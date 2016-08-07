@@ -3,23 +3,23 @@
   "version": "0.1.0",
   "description": "Node based tool to format `flow --json` output to a quickfix friendly format",
   "main": "./lib/index.js",
-	"bin": "./bin/flow-vim-quickfix",
+  "bin": "./bin/flow-vim-quickfix",
   "scripts": {
-		"prepublish": "npm run build",
+    "prepublish": "npm run build",
     "preversion": "npm test",
     "postversion": "git push && git push --tags",
     "test": "flow check; tape -r babel-register test/**/*.js",
-		"build": "babel src --out-dir lib",
-		"build:watch": "npm run build -- --watch"
+    "build": "babel src --out-dir lib",
+    "build:watch": "npm run build -- --watch"
   },
-	"files": [
-		"lib/",
-		"bin/"
-	],
+  "files": [
+    "lib/",
+    "bin/"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
-	"repository": "ryyppy/flow-vim-quickfix",
+  "repository": "ryyppy/flow-vim-quickfix",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.11.4",

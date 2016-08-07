@@ -56,7 +56,7 @@ else {
     const chunk = process.stdin.read();
 
     if (chunk != null) {
-			data += chunk.toString();
+      data += chunk.toString();
     }
   });
 

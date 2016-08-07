@@ -1,310 +1,310 @@
 {
-	"errors": [
-		{
-			"kind": "infer",
-			"level": "error",
-			"message": [
-				{
-					"context": "  | $npm$ReduxSaga$PutEffect",
-					"descr": "$npm$ReduxSaga$PutEffect",
-					"end": 28,
-					"endline": 25,
-					"line": 25,
-					"loc": {
-						"end": {
-							"column": 28,
-							"line": 25,
-							"offset": 550
-						},
-						"source": "[LIB] redux-saga_0.9.5.js",
-						"start": {
-							"column": 5,
-							"line": 25,
-							"offset": 526
-						},
-						"type": "LibFile"
-					},
-					"path": "[LIB] redux-saga_0.9.5.js",
-					"start": 5,
-					"type": "Blame"
-				},
-				{
-					"context": null,
-					"descr": "Application of polymorphic type needs <list of 1 argument>. (Can use `*` for inferrable ones)",
-					"end": 0,
-					"endline": 0,
-					"line": 0,
-					"path": "",
-					"start": 1,
-					"type": "Comment"
-				}
-			]
-		},
-		{
-			"kind": "infer",
-			"level": "error",
-			"message": [
-				{
-					"context": "  | $npm$ReduxSaga$CallEffect;",
-					"descr": "$npm$ReduxSaga$CallEffect",
-					"end": 29,
-					"endline": 26,
-					"line": 26,
-					"loc": {
-						"end": {
-							"column": 29,
-							"line": 26,
-							"offset": 580
-						},
-						"source": "[LIB] redux-saga_0.9.5.js",
-						"start": {
-							"column": 5,
-							"line": 26,
-							"offset": 555
-						},
-						"type": "LibFile"
-					},
-					"path": "[LIB] redux-saga_0.9.5.js",
-					"start": 5,
-					"type": "Blame"
-				},
-				{
-					"context": null,
-					"descr": "Application of polymorphic type needs <list of 1 argument>. (Can use `*` for inferrable ones)",
-					"end": 0,
-					"endline": 0,
-					"line": 0,
-					"path": "",
-					"start": 1,
-					"type": "Comment"
-				}
-			]
-		},
-		{
-			"kind": "infer",
-			"level": "error",
-			"message": [
-				{
-					"context": "import { createStore, applyMiddleware, compose } from 'redux';",
-					"descr": "redux",
-					"end": 61,
-					"endline": 5,
-					"line": 5,
-					"loc": {
-						"end": {
-							"column": 61,
-							"line": 5,
-							"offset": 133
-						},
-						"source": "test_redux-saga_0.9.5.js",
-						"start": {
-							"column": 55,
-							"line": 5,
-							"offset": 126
-						},
-						"type": "SourceFile"
-					},
-					"path": "test_redux-saga_0.9.5.js",
-					"start": 55,
-					"type": "Blame"
-				},
-				{
-					"context": null,
-					"descr": "Required module not found",
-					"end": 0,
-					"endline": 0,
-					"line": 0,
-					"path": "",
-					"start": 1,
-					"type": "Comment"
-				}
-			]
-		},
-		{
-			"kind": "infer",
-			"level": "error",
-			"message": [
-				{
-					"context": "import createSagaMiddleware from 'redux-saga';",
-					"descr": "redux-saga",
-					"end": 45,
-					"endline": 6,
-					"line": 6,
-					"loc": {
-						"end": {
-							"column": 45,
-							"line": 6,
-							"offset": 180
-						},
-						"source": "test_redux-saga_0.9.5.js",
-						"start": {
-							"column": 34,
-							"line": 6,
-							"offset": 168
-						},
-						"type": "SourceFile"
-					},
-					"path": "test_redux-saga_0.9.5.js",
-					"start": 34,
-					"type": "Blame"
-				},
-				{
-					"context": null,
-					"descr": "Required module not found",
-					"end": 0,
-					"endline": 0,
-					"line": 0,
-					"path": "",
-					"start": 1,
-					"type": "Comment"
-				}
-			]
-		},
-		{
-			"kind": "infer",
-			"level": "error",
-			"message": [
-				{
-					"context": "import { take, call, put, fork } from 'redux-saga/effects';",
-					"descr": "redux-saga/effects",
-					"end": 58,
-					"endline": 7,
-					"line": 7,
-					"loc": {
-						"end": {
-							"column": 58,
-							"line": 7,
-							"offset": 240
-						},
-						"source": "test_redux-saga_0.9.5.js",
-						"start": {
-							"column": 39,
-							"line": 7,
-							"offset": 220
-						},
-						"type": "SourceFile"
-					},
-					"path": "test_redux-saga_0.9.5.js",
-					"start": 39,
-					"type": "Blame"
-				},
-				{
-					"context": null,
-					"descr": "Required module not found",
-					"end": 0,
-					"endline": 0,
-					"line": 0,
-					"path": "",
-					"start": 1,
-					"type": "Comment"
-				}
-			]
-		},
-		{
-			"kind": "infer",
-			"level": "error",
-			"message": [
-				{
-					"context": "type Effect = $npm$ReduxSaga$Effect;",
-					"descr": "identifier `$npm$ReduxSaga$Effect`",
-					"end": 35,
-					"endline": 13,
-					"line": 13,
-					"loc": {
-						"end": {
-							"column": 35,
-							"line": 13,
-							"offset": 359
-						},
-						"source": "test_redux-saga_0.9.5.js",
-						"start": {
-							"column": 15,
-							"line": 13,
-							"offset": 338
-						},
-						"type": "SourceFile"
-					},
-					"path": "test_redux-saga_0.9.5.js",
-					"start": 15,
-					"type": "Blame"
-				},
-				{
-					"context": null,
-					"descr": "Could not resolve name",
-					"end": 0,
-					"endline": 0,
-					"line": 0,
-					"path": "",
-					"start": 1,
-					"type": "Comment"
-				}
-			]
-		},
-		{
-			"kind": "infer",
-			"level": "error",
-			"message": [
-				{
-					"context": "      const { type } = action;",
-					"descr": "property `type`",
-					"end": 18,
-					"endline": 26,
-					"line": 26,
-					"loc": {
-						"end": {
-							"column": 18,
-							"line": 26,
-							"offset": 747
-						},
-						"source": "test_redux-saga_0.9.5.js",
-						"start": {
-							"column": 15,
-							"line": 26,
-							"offset": 743
-						},
-						"type": "SourceFile"
-					},
-					"path": "test_redux-saga_0.9.5.js",
-					"start": 15,
-					"type": "Blame"
-				},
-				{
-					"context": null,
-					"descr": "Property not found in",
-					"end": 0,
-					"endline": 0,
-					"line": 0,
-					"path": "",
-					"start": 1,
-					"type": "Comment"
-				},
-				{
-					"context": "      const { type } = action;",
-					"descr": "Array",
-					"end": 18,
-					"endline": 26,
-					"line": 26,
-					"loc": {
-						"end": {
-							"column": 18,
-							"line": 26,
-							"offset": 747
-						},
-						"source": "test_redux-saga_0.9.5.js",
-						"start": {
-							"column": 15,
-							"line": 26,
-							"offset": 743
-						},
-						"type": "SourceFile"
-					},
-					"path": "test_redux-saga_0.9.5.js",
-					"start": 15,
-					"type": "Blame"
-				}
-			]
-		}
-	],
-	"flowVersion": "0.29.0",
-	"passed": false
+  "errors": [
+    {
+      "kind": "infer",
+      "level": "error",
+      "message": [
+        {
+          "context": "  | $npm$ReduxSaga$PutEffect",
+          "descr": "$npm$ReduxSaga$PutEffect",
+          "end": 28,
+          "endline": 25,
+          "line": 25,
+          "loc": {
+            "end": {
+              "column": 28,
+              "line": 25,
+              "offset": 550
+            },
+            "source": "[LIB] redux-saga_0.9.5.js",
+            "start": {
+              "column": 5,
+              "line": 25,
+              "offset": 526
+            },
+            "type": "LibFile"
+          },
+          "path": "[LIB] redux-saga_0.9.5.js",
+          "start": 5,
+          "type": "Blame"
+        },
+        {
+          "context": null,
+          "descr": "Application of polymorphic type needs <list of 1 argument>. (Can use `*` for inferrable ones)",
+          "end": 0,
+          "endline": 0,
+          "line": 0,
+          "path": "",
+          "start": 1,
+          "type": "Comment"
+        }
+      ]
+    },
+    {
+      "kind": "infer",
+      "level": "error",
+      "message": [
+        {
+          "context": "  | $npm$ReduxSaga$CallEffect;",
+          "descr": "$npm$ReduxSaga$CallEffect",
+          "end": 29,
+          "endline": 26,
+          "line": 26,
+          "loc": {
+            "end": {
+              "column": 29,
+              "line": 26,
+              "offset": 580
+            },
+            "source": "[LIB] redux-saga_0.9.5.js",
+            "start": {
+              "column": 5,
+              "line": 26,
+              "offset": 555
+            },
+            "type": "LibFile"
+          },
+          "path": "[LIB] redux-saga_0.9.5.js",
+          "start": 5,
+          "type": "Blame"
+        },
+        {
+          "context": null,
+          "descr": "Application of polymorphic type needs <list of 1 argument>. (Can use `*` for inferrable ones)",
+          "end": 0,
+          "endline": 0,
+          "line": 0,
+          "path": "",
+          "start": 1,
+          "type": "Comment"
+        }
+      ]
+    },
+    {
+      "kind": "infer",
+      "level": "error",
+      "message": [
+        {
+          "context": "import { createStore, applyMiddleware, compose } from 'redux';",
+          "descr": "redux",
+          "end": 61,
+          "endline": 5,
+          "line": 5,
+          "loc": {
+            "end": {
+              "column": 61,
+              "line": 5,
+              "offset": 133
+            },
+            "source": "test_redux-saga_0.9.5.js",
+            "start": {
+              "column": 55,
+              "line": 5,
+              "offset": 126
+            },
+            "type": "SourceFile"
+          },
+          "path": "test_redux-saga_0.9.5.js",
+          "start": 55,
+          "type": "Blame"
+        },
+        {
+          "context": null,
+          "descr": "Required module not found",
+          "end": 0,
+          "endline": 0,
+          "line": 0,
+          "path": "",
+          "start": 1,
+          "type": "Comment"
+        }
+      ]
+    },
+    {
+      "kind": "infer",
+      "level": "error",
+      "message": [
+        {
+          "context": "import createSagaMiddleware from 'redux-saga';",
+          "descr": "redux-saga",
+          "end": 45,
+          "endline": 6,
+          "line": 6,
+          "loc": {
+            "end": {
+              "column": 45,
+              "line": 6,
+              "offset": 180
+            },
+            "source": "test_redux-saga_0.9.5.js",
+            "start": {
+              "column": 34,
+              "line": 6,
+              "offset": 168
+            },
+            "type": "SourceFile"
+          },
+          "path": "test_redux-saga_0.9.5.js",
+          "start": 34,
+          "type": "Blame"
+        },
+        {
+          "context": null,
+          "descr": "Required module not found",
+          "end": 0,
+          "endline": 0,
+          "line": 0,
+          "path": "",
+          "start": 1,
+          "type": "Comment"
+        }
+      ]
+    },
+    {
+      "kind": "infer",
+      "level": "error",
+      "message": [
+        {
+          "context": "import { take, call, put, fork } from 'redux-saga/effects';",
+          "descr": "redux-saga/effects",
+          "end": 58,
+          "endline": 7,
+          "line": 7,
+          "loc": {
+            "end": {
+              "column": 58,
+              "line": 7,
+              "offset": 240
+            },
+            "source": "test_redux-saga_0.9.5.js",
+            "start": {
+              "column": 39,
+              "line": 7,
+              "offset": 220
+            },
+            "type": "SourceFile"
+          },
+          "path": "test_redux-saga_0.9.5.js",
+          "start": 39,
+          "type": "Blame"
+        },
+        {
+          "context": null,
+          "descr": "Required module not found",
+          "end": 0,
+          "endline": 0,
+          "line": 0,
+          "path": "",
+          "start": 1,
+          "type": "Comment"
+        }
+      ]
+    },
+    {
+      "kind": "infer",
+      "level": "error",
+      "message": [
+        {
+          "context": "type Effect = $npm$ReduxSaga$Effect;",
+          "descr": "identifier `$npm$ReduxSaga$Effect`",
+          "end": 35,
+          "endline": 13,
+          "line": 13,
+          "loc": {
+            "end": {
+              "column": 35,
+              "line": 13,
+              "offset": 359
+            },
+            "source": "test_redux-saga_0.9.5.js",
+            "start": {
+              "column": 15,
+              "line": 13,
+              "offset": 338
+            },
+            "type": "SourceFile"
+          },
+          "path": "test_redux-saga_0.9.5.js",
+          "start": 15,
+          "type": "Blame"
+        },
+        {
+          "context": null,
+          "descr": "Could not resolve name",
+          "end": 0,
+          "endline": 0,
+          "line": 0,
+          "path": "",
+          "start": 1,
+          "type": "Comment"
+        }
+      ]
+    },
+    {
+      "kind": "infer",
+      "level": "error",
+      "message": [
+        {
+          "context": "      const { type } = action;",
+          "descr": "property `type`",
+          "end": 18,
+          "endline": 26,
+          "line": 26,
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 26,
+              "offset": 747
+            },
+            "source": "test_redux-saga_0.9.5.js",
+            "start": {
+              "column": 15,
+              "line": 26,
+              "offset": 743
+            },
+            "type": "SourceFile"
+          },
+          "path": "test_redux-saga_0.9.5.js",
+          "start": 15,
+          "type": "Blame"
+        },
+        {
+          "context": null,
+          "descr": "Property not found in",
+          "end": 0,
+          "endline": 0,
+          "line": 0,
+          "path": "",
+          "start": 1,
+          "type": "Comment"
+        },
+        {
+          "context": "      const { type } = action;",
+          "descr": "Array",
+          "end": 18,
+          "endline": 26,
+          "line": 26,
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 26,
+              "offset": 747
+            },
+            "source": "test_redux-saga_0.9.5.js",
+            "start": {
+              "column": 15,
+              "line": 26,
+              "offset": 743
+            },
+            "type": "SourceFile"
+          },
+          "path": "test_redux-saga_0.9.5.js",
+          "start": 15,
+          "type": "Blame"
+        }
+      ]
+    }
+  ],
+  "flowVersion": "0.29.0",
+  "passed": false
 }

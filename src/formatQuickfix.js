@@ -47,30 +47,30 @@ type FlowJsonOutput = {
 function getLocTypeTag(type: string): string {
   switch(type) {
     case 'LibFile': return '[LIB]';
-    // case 'SourceFile': return '[SO]';
+      // case 'SourceFile': return '[SO]';
     default: return '';
   }
 }
 
 // Separates the error messages in it's related sub-messages 
 function groupMessages(message: Array<FlowMessage>): Array<Array<FlowMessage>> {
-	const { result } = message.reduce((ret, msg) => {
+  const { result } = message.reduce((ret, msg) => {
 
-		if(msg.type === 'Blame') {
+    if(msg.type === 'Blame') {
       if (ret.buffer.length > 0) {
         ret.result.push(ret.buffer);
       }
 
-			ret.buffer = [msg];
-		}
+      ret.buffer = [msg];
+    }
     else {
       ret.buffer.push(msg);
     }
 
-		return ret;
-	}, { buffer: [], result: [] });
+    return ret;
+  }, { buffer: [], result: [] });
 
-	return result;
+  return result;
 }
 
 // Required, since --strip-root will prepend a [LIB] in front of
@@ -112,7 +112,7 @@ function processMessage(message: Array<FlowMessage>): string {
 
 export default function formatQuickfix(jsonOutput: FlowJsonOutput): Array<string> {
   const { errors } = jsonOutput;
-  
+
   if (errors == null) {
     return [];
   }
