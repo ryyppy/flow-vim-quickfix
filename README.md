@@ -13,7 +13,7 @@ getting useful flow messages in VIM.
 # Installation
 
 ```
-$ npm install flow-vim-quickfix
+$ npm install -g flow-vim-quickfix
 ```
 
 ## Configuring NeoMake
