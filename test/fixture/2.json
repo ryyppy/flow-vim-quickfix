@@ -1,0 +1,150 @@
+{
+	"errors": [
+		{
+			"kind": "infer",
+			"level": "error",
+			"message": [
+				{
+					"context": "  | $npm$ReduxSaga$PutEffect",
+					"descr": "$npm$ReduxSaga$PutEffect",
+					"end": 28,
+					"endline": 25,
+					"line": 25,
+					"loc": {
+						"end": {
+							"column": 28,
+							"line": 25,
+							"offset": 550
+						},
+						"source": "/Projects/test/interface/redux-saga_0.9.5.js",
+						"start": {
+							"column": 5,
+							"line": 25,
+							"offset": 526
+						},
+						"type": "LibFile"
+					},
+					"path": "/Projects/test/interface/redux-saga_0.9.5.js",
+					"start": 5,
+					"type": "Blame"
+				},
+				{
+					"context": null,
+					"descr": "Application of polymorphic type needs <list of 1 argument>. (Can use `*` for inferrable ones)",
+					"end": 0,
+					"endline": 0,
+					"line": 0,
+					"path": "",
+					"start": 1,
+					"type": "Comment"
+				}
+			]
+		},
+		{
+			"kind": "infer",
+			"level": "error",
+			"message": [
+				{
+					"context": "  | $npm$ReduxSaga$CallEffect;",
+					"descr": "$npm$ReduxSaga$CallEffect",
+					"end": 29,
+					"endline": 26,
+					"line": 26,
+					"loc": {
+						"end": {
+							"column": 29,
+							"line": 26,
+							"offset": 580
+						},
+						"source": "/Projects/test/interface/redux-saga_0.9.5.js",
+						"start": {
+							"column": 5,
+							"line": 26,
+							"offset": 555
+						},
+						"type": "LibFile"
+					},
+					"path": "/Projects/test/interface/redux-saga_0.9.5.js",
+					"start": 5,
+					"type": "Blame"
+				},
+				{
+					"context": null,
+					"descr": "Application of polymorphic type needs <list of 1 argument>. (Can use `*` for inferrable ones)",
+					"end": 0,
+					"endline": 0,
+					"line": 0,
+					"path": "",
+					"start": 1,
+					"type": "Comment"
+				}
+			]
+		},
+		{
+			"kind": "infer",
+			"level": "error",
+			"message": [
+				{
+					"context": "      const { type } = action;",
+					"descr": "property `type`",
+					"end": 18,
+					"endline": 26,
+					"line": 26,
+					"loc": {
+						"end": {
+							"column": 18,
+							"line": 26,
+							"offset": 747
+						},
+						"source": "/Projects/test/test_redux-saga_0.9.5.js",
+						"start": {
+							"column": 15,
+							"line": 26,
+							"offset": 743
+						},
+						"type": "SourceFile"
+					},
+					"path": "/Projects/test/test_redux-saga_0.9.5.js",
+					"start": 15,
+					"type": "Blame"
+				},
+				{
+					"context": null,
+					"descr": "Property not found in",
+					"end": 0,
+					"endline": 0,
+					"line": 0,
+					"path": "",
+					"start": 1,
+					"type": "Comment"
+				},
+				{
+					"context": "      const { type } = action;",
+					"descr": "Array",
+					"end": 18,
+					"endline": 26,
+					"line": 26,
+					"loc": {
+						"end": {
+							"column": 18,
+							"line": 26,
+							"offset": 747
+						},
+						"source": "/Projects/test/test_redux-saga_0.9.5.js",
+						"start": {
+							"column": 15,
+							"line": 26,
+							"offset": 743
+						},
+						"type": "SourceFile"
+					},
+					"path": "/Projects/test/test_redux-saga_0.9.5.js",
+					"start": 15,
+					"type": "Blame"
+				}
+			]
+		}
+	],
+	"flowVersion": "0.29.0",
+	"passed": false
+}
