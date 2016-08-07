@@ -17,8 +17,8 @@
     "bin/"
   ],
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Patrick Stapfer <p.stapfer@deadlock.at>",
+  "license": "MIT",
   "repository": "ryyppy/flow-vim-quickfix",
   "devDependencies": {
     "babel": "^6.5.2",
