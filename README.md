@@ -29,10 +29,10 @@ endfunction
 let g:flow_path = StrTrim(system('PATH=$(npm bin):$PATH && which flow'))
 
 let g:neomake_javascript_flow_maker = {
-		\ 'exe': 'sh',
+    \ 'exe': 'sh',
     \ 'args': ['-c', g:flow_path.' --json --strip-root | flow-vim-quickfix'],
     \ 'errorformat': '%E%f:%l:%c\,%n: %m',
-		\ 'cwd': '%:p:h' 
+    \ 'cwd': '%:p:h' 
     \ }
 
 if g:flow_path != 'flow not found'
@@ -43,14 +43,14 @@ endif
 Now, after re-sourcing your vim config, the maker should run the flow binary and
 pipe it through `flow-vim-quickfix`. Why do we use `sh` here? Because the shell
 is much faster spawning the `flow` process than `node`, resulting in much faster
-feedback on each save in VIM.
+feedback on each `BufWrite` in VIM.
 
-# Manual Usage
+# Usage
 
-If you want to use the command for your other purposes: 
+If you want to use the cli command for other purposes than VIM:
 
 ```
-# Assuming you have been installing flow via `npm install -g flowbin`...
+# Assuming you have been installing flow via `npm install -g flow-bin`...
 flow --json | flow-vim-quickfix
 
 # Or if you don't care about performance and want `node` to spawn flow for you
