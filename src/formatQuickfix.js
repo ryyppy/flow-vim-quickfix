@@ -73,16 +73,6 @@ function groupMessages(message: Array<FlowMessage>): Array<Array<FlowMessage>> {
   return result;
 }
 
-// Required, since --strip-root will prepend a [LIB] in front of
-// libdef file paths for some reasons
-// See: https://github.com/facebook/flow/issues/2204
-function fixRelativeMessagePath(path: string, locType: string): string {
-  if (locType === 'LibFile') {
-    return path.replace(/^\[LIB\]\s/, '');
-  }
-  return path;
-}
-
 function processMessage(message: Array<FlowMessage>): string {
   return message.reduce((str, msg) => {
     if (msg.type === 'Blame') {
@@ -91,7 +81,7 @@ function processMessage(message: Array<FlowMessage>): string {
         const locTypeTag = getLocTypeTag(msg.loc.type);
         const locTypeTagStr = (locTypeTag !== '' ? ` ${locTypeTag} |`: '');
 
-        return `${fixRelativeMessagePath(msg.path, msg.loc.type)}:${msg.line}:${msg.start},${msg.end}:${locTypeTagStr} ${msg.descr}`;
+        return `${msg.path}:${msg.line}:${msg.start},${msg.end}:${locTypeTagStr} ${msg.descr}`;
       }
       else {
         if (str.indexOf('Property not found in') !== -1) {

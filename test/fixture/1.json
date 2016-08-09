@@ -16,7 +16,7 @@
               "line": 25,
               "offset": 550
             },
-            "source": "[LIB] redux-saga_0.9.5.js",
+            "source": "redux-saga_0.9.5.js",
             "start": {
               "column": 5,
               "line": 25,
@@ -24,7 +24,7 @@
             },
             "type": "LibFile"
           },
-          "path": "[LIB] redux-saga_0.9.5.js",
+          "path": "redux-saga_0.9.5.js",
           "start": 5,
           "type": "Blame"
         },
@@ -56,7 +56,7 @@
               "line": 26,
               "offset": 580
             },
-            "source": "[LIB] redux-saga_0.9.5.js",
+            "source": "redux-saga_0.9.5.js",
             "start": {
               "column": 5,
               "line": 26,
@@ -64,7 +64,7 @@
             },
             "type": "LibFile"
           },
-          "path": "[LIB] redux-saga_0.9.5.js",
+          "path": "redux-saga_0.9.5.js",
           "start": 5,
           "type": "Blame"
         },
