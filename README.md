@@ -35,7 +35,7 @@ if findfile('.flowconfig', '.;') !=# ''
   if g:flow_path != 'flow not found'
     let g:neomake_javascript_flow_maker = {
           \ 'exe': 'sh',
-          \ 'args': ['-c', g:flow_path.' --json | flow-vim-quickfix'],
+          \ 'args': ['-c', g:flow_path.' --json 2> /dev/null | flow-vim-quickfix'],
           \ 'errorformat': '%E%f:%l:%c\,%n: %m',
           \ 'cwd': '%:p:h' 
           \ }
@@ -67,4 +67,7 @@ flow-vim-quickfix /path/to/your/flow
 
 # You can also just use flow from $PATH
 flow-vim-quickfix flow
+
+# If you want to prevent stderr output like "Waiting for flow server..."
+flow --json 2> /dev/null | flow-vim-quickfix
 ```
